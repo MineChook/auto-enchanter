@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "auto-enchanter",
+	"version": "${version}",
+	"name": "Auto Enchanter",
+	"description": "Enchant items in the anvil automatically",
+	"authors": [
+		"gXLg"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/auto-enchanter/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.gxlg.autoenchanter.AutoEnchanter"
+		]
+	},
+	"mixins": [
+		"client.auto-enchanter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.9",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
