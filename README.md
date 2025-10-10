@@ -44,29 +44,20 @@ Enchant items in the anvil automatically with minimal cost
       you can simply re-open an anvil and press <kbd>Start enchanting</kbd> again
     * it will continue from where it left off
 
+<div align="center">
+    <table align="left">
+        <tr><td><img src="https://github.com/user-attachments/assets/16c659bd-b58c-4668-97d7-75d5060c6043" alt="Selection" width="420"></td></tr>
+        <tr><td><b>Selecting items for enchanting</b></td></tr>
+    </table>
+    <table align="right">
+        <tr><td><img src="https://github.com/user-attachments/assets/59f3a0de-b7ca-4d89-bae5-fa5fab4142b9" alt="Ready" width="420"></td></tr>
+        <tr><td><b>Success message</b></td></tr>
+    </table>
+</div>
+<br clear="left">
 <table align="center">
-    <tr>
-        <td>
-            <table>
-                <tr><td><img src="https://github.com/user-attachments/assets/16c659bd-b58c-4668-97d7-75d5060c6043" alt="Selection" width="320"></td></tr>
-                <tr><td><b>Selecting items for enchanting</b></td></tr>
-            </table>
-        </td>
-        <td>
-            <table>
-                <tr><td><img src="https://github.com/user-attachments/assets/59f3a0de-b7ca-4d89-bae5-fa5fab4142b9" alt="Ready" width="320"></td></tr>
-                <tr><td><b>Success message</b></td></tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2" align="center">
-            <table>
-                <tr><td><img src="https://github.com/user-attachments/assets/5bdd73db-4042-4de7-917f-b9cc65d9e2e1" alt="Calculation" width="600"></td></tr>
-                <tr><td><b>Calculation process with visualization</b></td></tr>
-            </table>
-        </td>
-    </tr>
+    <tr><td><img src="https://github.com/user-attachments/assets/5bdd73db-4042-4de7-917f-b9cc65d9e2e1" alt="Calculation" width="600"></td></tr>
+    <tr><td><b>Calculation process with visualization</b></td></tr>
 </table>
 
 ---
@@ -91,6 +82,8 @@ to consider only valid combinations. This process is a little fragile and is sti
 wasted or inefficiently used books, Auto Enchanter should throw an error before calculating in most cases, however
 sometimes if the combination of the books is more complex, Auto Enchanter will begin calculating and won't find any
 fitting enchantment trees.
+
+---
 
 <h1 align="center">
     <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
@@ -119,6 +112,8 @@ some items' every enchantment will be wasted in the enchanting process
 Since not all edge cases can be eliminated before the calculation,
 there are additional checks inside the algorithm to discard invalid enchanting orders;
 if all such orders were invalid, this error message appears
+
+---
 
 <h2 align="center">
     <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center" height="42">
