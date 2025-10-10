@@ -1,3 +1,5 @@
+<!--suppress HtmlDeprecatedAttribute, CheckImageSize -->
+
 <img src="images/cover.png" alt="Auto Enchanter Cover">
 
 <h1>
@@ -46,13 +48,13 @@ Enchant items in the anvil automatically with minimal cost
     <tr>
         <td>
             <table>
-                <tr><td><img src="images/selection.png" alt="Selection" align="center"></td></tr>
+                <tr><td><img src="images/selection.png" alt="Selection" align="center" width="380"></td></tr>
                 <tr><td><b>Selecting items for enchanting</b></td></tr>
             </table>
         </td>
         <td>
             <table>
-                <tr><td><img src="images/ready.png" alt="Ready" align="center"></td></tr>
+                <tr><td><img src="images/ready.png" alt="Ready" align="center" width="380"></td></tr>
                 <tr><td><b>Success message</b></td></tr>
             </table>
         </td>
@@ -60,7 +62,7 @@ Enchant items in the anvil automatically with minimal cost
     <tr>
         <td colspan="2">
             <table>
-                <tr><td><img src="images/calculation.png" alt="Calculation" align="center"></td></tr>
+                <tr><td><img src="images/calculation.png" alt="Calculation" align="center" width="600"></td></tr>
                 <tr><td><b>Calculation process with visualization</b></td></tr>
             </table>
         </td>
@@ -94,28 +96,28 @@ fitting enchantment trees.
     Error Messages<img src="images/book.png" alt="Enchanted Book" align="center">
 </h1>
 
-> > Some items are incompatible or useless
->
-> Incompatible enchantments were found and some books contain no useful enchantments
+> Some items are incompatible or useless
 
-> > Enchantment &lt;...&gt; has wasted items
->
-> This enchantment has books and items of different levels, and they don't add up to the max level
+Incompatible enchantments were found and some books contain no useful enchantments
 
-> > Some items' every enchantment is ignored
->
-> After adding all incompatible enchantments into the ignore list, some items have no useful enchantments anymore
+> Enchantment &lt;...&gt; has wasted items
 
-> > Some items' every enchantment is wasted
->
-> After creating the merge tree of the different levels of an enchantment,
-> some items' every enchantment will be wasted in the enchating process
+This enchantment has books and items of different levels, and they don't add up to the max level
 
-> > Couldn't find a tree
->
-> Since not all edge cases can be eliminated before the calculation,
-> there are additional checks inside the algorithm to discard invalid enchanting orders;
-> if all such orders were invalid, this error message appears
+> Some items' every enchantment is ignored
+
+After adding all incompatible enchantments into the ignore list, some items have no useful enchantments anymore
+
+> Some items' every enchantment is wasted
+
+After creating the merge tree of the different levels of an enchantment,
+some items' every enchantment will be wasted in the enchanting process
+
+> Couldn't find a tree
+
+Since not all edge cases can be eliminated before the calculation,
+there are additional checks inside the algorithm to discard invalid enchanting orders;
+if all such orders were invalid, this error message appears
 
 <h2>
     <img src="images/book.png" alt="Enchanted Book" align="center" height="42">
