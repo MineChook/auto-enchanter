@@ -1,28 +1,28 @@
 <!--suppress HtmlDeprecatedAttribute, CheckImageSize -->
 
-<img src="images/cover.png" alt="Auto Enchanter Cover">
+<img alt="Auto Enchanter Cover" src="https://github.com/user-attachments/assets/877fd04f-f5ad-4bec-8ff8-e8c0008a4dd0" />
 
-<h1>
-    <img src="src/main/resources/assets/auto-enchanter/icon.png" alt="Auto Enchanter Icon" align="center">
+> [!WARNING]
+> Experimental mod, use at your own risk
+
+---
+
+<h1 align="center">
+    <img src="https://github.com/user-attachments/assets/d8b694df-ffb2-4ce0-abbe-fcd50a8fcc98" alt="Auto Enchanter Icon" align="center">
     AutoEnchanter
-    <img src="images/book.png" alt="Enchanted Book" align="center">
+    <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
 </h1>
 
 Enchant items in the anvil automatically with minimal cost
-
----
 
 * <img src="https://gxlg.github.io/multi-version.svg" height="24" width="24" align="center" alt="MultiVersion"> MultiVersion <kbd>1.20.5</kbd>-<kbd>1.21.10</kbd>: Single JAR for all versions
 * Purely <kbd>client side</kbd>: works in Singleplayer, in Multiplayer and doesn't have to be installed on Servers
 
 ---
 
-> [!WARNING]
-> Experimental mod, use at your own risk
-
-<h1>
-    <img src="images/book.png" alt="Enchanted Book" align="center">
-    Usage<img src="images/book.png" alt="Enchanted Book" align="center">
+<h1 align="center">
+    <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
+    Usage<img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
 </h1>
 
 1. Open an anvil
@@ -44,35 +44,36 @@ Enchant items in the anvil automatically with minimal cost
       you can simply re-open an anvil and press <kbd>Start enchanting</kbd> again
     * it will continue from where it left off
 
-<table>
+<table align="center">
     <tr>
         <td>
             <table>
-                <tr><td><img src="images/selection.png" alt="Selection" align="center" width="380"></td></tr>
+                <tr><td><img src="https://github.com/user-attachments/assets/16c659bd-b58c-4668-97d7-75d5060c6043" alt="Selection" width="320"></td></tr>
                 <tr><td><b>Selecting items for enchanting</b></td></tr>
             </table>
         </td>
         <td>
             <table>
-                <tr><td><img src="images/ready.png" alt="Ready" align="center" width="380"></td></tr>
+                <tr><td><img src="https://github.com/user-attachments/assets/59f3a0de-b7ca-4d89-bae5-fa5fab4142b9" alt="Ready" width="320"></td></tr>
                 <tr><td><b>Success message</b></td></tr>
             </table>
         </td>
     </tr>
     <tr>
-        <td colspan="2">
+        <td colspan="2" align="center">
             <table>
-                <tr><td><img src="images/calculation.png" alt="Calculation" align="center" width="600"></td></tr>
+                <tr><td><img src="https://github.com/user-attachments/assets/5bdd73db-4042-4de7-917f-b9cc65d9e2e1" alt="Calculation" width="600"></td></tr>
                 <tr><td><b>Calculation process with visualization</b></td></tr>
             </table>
         </td>
     </tr>
 </table>
 
+---
 
-<h1>
-    <img src="images/book.png" alt="Enchanted Book" align="center">
-    Enchantment Combinations<img src="images/book.png" alt="Enchanted Book" align="center">
+<h1 align="center">
+    <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
+    Enchantment Combinations<img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
 </h1>
 
 If your selected items contain **incompatible enchantments**, the mod decides which to keep based on the list of
@@ -91,9 +92,9 @@ wasted or inefficiently used books, Auto Enchanter should throw an error before 
 sometimes if the combination of the books is more complex, Auto Enchanter will begin calculating and won't find any
 fitting enchantment trees.
 
-<h1>
-    <img src="images/book.png" alt="Enchanted Book" align="center">
-    Error Messages<img src="images/book.png" alt="Enchanted Book" align="center">
+<h1 align="center">
+    <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
+    Error Messages<img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
 </h1>
 
 > Some items are incompatible or useless
@@ -119,9 +120,9 @@ Since not all edge cases can be eliminated before the calculation,
 there are additional checks inside the algorithm to discard invalid enchanting orders;
 if all such orders were invalid, this error message appears
 
-<h2>
-    <img src="images/book.png" alt="Enchanted Book" align="center" height="42">
-    About Me<img src="images/book.png" alt="Enchanted Book" align="center" height="42">
+<h2 align="center">
+    <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center" height="42">
+    About Me<img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center" height="42">
 </h2>
 
 I am a computer science student in Germany and have a part-time job at a tech company.
