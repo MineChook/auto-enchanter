@@ -44,20 +44,22 @@ Enchant items in the anvil automatically with minimal cost
       you can simply re-open an anvil and press <kbd>Start enchanting</kbd> again
     * it will continue from where it left off
 
-<div align="center">
-    <table align="left">
-        <tr><td><img src="https://github.com/user-attachments/assets/16c659bd-b58c-4668-97d7-75d5060c6043" alt="Selection" width="420"></td></tr>
-        <tr><td><b>Selecting items for enchanting</b></td></tr>
-    </table>
-    <table align="right">
-        <tr><td><img src="https://github.com/user-attachments/assets/59f3a0de-b7ca-4d89-bae5-fa5fab4142b9" alt="Ready" width="420"></td></tr>
-        <tr><td><b>Success message</b></td></tr>
-    </table>
-</div>
+<table align="left">
+    <tr><td><img src="https://github.com/user-attachments/assets/16c659bd-b58c-4668-97d7-75d5060c6043" alt="Selection" height="200" width="368"></td></tr>
+    <tr><td><b>Selecting items for enchanting</b></td></tr>
+</table>
+<table>
+    <tr><td><img src="https://github.com/user-attachments/assets/59f3a0de-b7ca-4d89-bae5-fa5fab4142b9" alt="Ready" height="200" width="368"></td></tr>
+    <tr><td><b>Success message</b></td></tr>
+</table>
 <br clear="left">
-<table align="center">
-    <tr><td><img src="https://github.com/user-attachments/assets/5bdd73db-4042-4de7-917f-b9cc65d9e2e1" alt="Calculation" width="600"></td></tr>
+<table align="left">
+    <tr><td><img src="https://github.com/user-attachments/assets/5bdd73db-4042-4de7-917f-b9cc65d9e2e1" alt="Calculation" height="200" width="368"></td></tr>
     <tr><td><b>Calculation process with visualization</b></td></tr>
+</table>
+<table>
+    <tr><td><img src="https://github.com/user-attachments/assets/77bfbe19-fe19-4e28-8403-79b618e180cc" alt="Enchanting" height="200" width="368"></td></tr>
+    <tr><td><b>Automatic enchanting</b></td></tr>
 </table>
 
 ---
