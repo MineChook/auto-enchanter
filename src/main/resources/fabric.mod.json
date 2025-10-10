@@ -3,7 +3,7 @@
 	"id": "auto-enchanter",
 	"version": "${version}",
 	"name": "Auto Enchanter",
-	"description": "Enchant items in the anvil automatically",
+	"description": "Enchant items in the anvil automatically with minimal cost",
 	"authors": [
 		"gXLg"
 	],
@@ -23,9 +23,9 @@
 		"client.auto-enchanter.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.17.2",
-		"minecraft": "~1.21.9",
-		"java": ">=21",
+		"fabricloader": "*",
+		"minecraft": "<=1.21.10 >=1.20.5",
+		"java": ">=16",
 		"fabric-api": "*"
 	}
 }

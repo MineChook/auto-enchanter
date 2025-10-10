@@ -2,8 +2,9 @@
 	"required": true,
 	"package": "dev.gxlg.autoenchanter.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"AnvilMixin",
+		"ManagerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

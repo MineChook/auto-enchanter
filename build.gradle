@@ -45,3 +45,7 @@ jar {
 		rename { "${it}_${inputs.properties.archivesName}"}
 	}
 }
+
+
+
+apply from: './MultiVersion/multi-version.gradle'
