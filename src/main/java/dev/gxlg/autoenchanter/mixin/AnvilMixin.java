@@ -2,6 +2,7 @@ package dev.gxlg.autoenchanter.mixin;
 
 import dev.gxlg.autoenchanter.Colors;
 import dev.gxlg.autoenchanter.DataStructures;
+import dev.gxlg.autoenchanter.Reflection;
 import dev.gxlg.autoenchanter.Worker;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.screen.ingame.AnvilScreen;
@@ -29,6 +30,9 @@ public abstract class AnvilMixin extends ForgingScreen<AnvilScreenHandler> {
     private void setup(CallbackInfo ci) {
         assert client != null;
         TextWidget text = new TextWidget(20, 20, width - 40, 20, Text.empty(), textRenderer);
+        if (Reflection.version("<= 1.21.8")) {
+            Object ignored = Reflection.wrap("@text method_48596/alignLeft");
+        }
         this.addDrawableChild(text);
 
         ButtonWidget buttonSelect = new ButtonWidget.Builder(Text.of("Select items"), b -> Worker.select()).dimensions(20, 45, 100, 20).build();
