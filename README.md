@@ -1,6 +1,7 @@
 <!--suppress HtmlDeprecatedAttribute, CheckImageSize -->
 
-<img alt="Auto Enchanter Cover" src="https://github.com/user-attachments/assets/877fd04f-f5ad-4bec-8ff8-e8c0008a4dd0" />
+<img alt="Auto Enchanter Cover" src="https://github.com/user-attachments/assets/2347c1cd-98a1-4a75-bd8e-410b5a37f0a7" />
+
 
 > [!WARNING]
 > Experimental mod, use at your own risk
