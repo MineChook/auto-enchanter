@@ -229,8 +229,6 @@ public class Worker {
         List<Enchant> allItems = new ArrayList<>(collection.subList(1, collection.size()));
         allItems.sort(Comparator.comparingInt(e -> e.enchantments().values().stream().mapToInt(j -> j.lvl() * j.cost(e.item())).sum()));
 
-        System.out.println(maxMap);
-
         search = new Utils.ShapePool(collection.size(), allItems, trueMap, mainItem, ignoredEncs, maxMap);
         showText("Calculating...", Colors.BLUE);
         buttonSelect.visible = false;
@@ -248,11 +246,6 @@ public class Worker {
         ClientPlayerEntity player = client.player;
         if (player == null) return;
         ScreenHandler handler = player.currentScreenHandler;
-
-        if (!player.isInCreativeMode() && player.experienceLevel < enchantCost) {
-            showText("Not enough levels, needed: " + enchantCost, Colors.RED);
-            return;
-        }
 
         List<EnchantedItem> outputs = operations.subList(opid, operations.size()).stream().map(AnvilItem::result).toList();
         List<EnchantedItem> inputs = operations.subList(opid, operations.size()).stream().flatMap(e -> Stream.of(e.target(), e.sacrifice())).filter(i -> outputs.stream().noneMatch(j -> j == i)).toList();
@@ -327,6 +320,12 @@ public class Worker {
             timer = 0;
 
             AnvilItem current = operations.get(opid);
+            int cost = current.result().cost() - current.sacrifice().cost() - current.target().cost();
+            if (!player.isInCreativeMode() && player.experienceLevel < cost) {
+                showText("Not enough levels for the current combo, needed: " + cost, Colors.RED);
+                return;
+            }
+
             if (sopid == 0) {
                 EnchantedItem item = current.target();
                 if (item.matches(handler.getSlot(0).getStack())) {
