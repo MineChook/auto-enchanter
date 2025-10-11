@@ -9,7 +9,8 @@
 	],
 	"contact": {
 		"homepage": "https://gXLg.dev/en",
-		"sources": "https://github.com/gXLg/auto-enchanter"
+		"sources": "https://github.com/gXLg/auto-enchanter",
+		"issues": "https://github.com/gXLg/auto-enchanter/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/auto-enchanter/icon.png",

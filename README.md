@@ -31,19 +31,26 @@ Enchant items in the anvil automatically with minimal cost
 3. First select the target item (will be highlighted blue)
 4. Then select all the sacrifices you want to make (highlighted green)
 5. Once you selected everything, press the <kbd>Calculate</kbd> button
-6. Auto Enchanter will check for any incompatible enchantments and start to iterate all possibilities to apply the enchantments
+6. Auto Enchanter will check for any incompatible enchantments and start to iterate all possibilities to apply the
+   enchantments
     * Even if you close the anvil screen, the calculation will continue
-    * To stop, either press <kbd>Cancel</kbd> inside the anvil screen or use the client-side command `/autoenchanter cancel`
+    * To stop, either press <kbd>Cancel</kbd> inside the anvil screen or use the client-side
+      command `/autoenchanter cancel`
     * Note, that the calculation uses a lot of resources and the speed depends on your hardware
     * Even with a decent setup, only up to 14 items can be calculated in under 5 minutes
 7. When the calculation process is finished, Auto Enchanter will notify you
     * If you are in the anvil screen, you will see the message written there
     * Else, you will get a text message in the chat
 8. After opening the anvil again, you can choose between <kbd>Start enchanting</kbd> and <kbd>Cancel</kbd>
-9. Automatic enchanting works by simulating slot clicks, most servers should allow this
+9. Automatic enchanting works by simulating slot clicks, and most servers should allow this
     * If your anvil breaks while enchanting, or you close the anvil screen yourself,
       you can simply re-open an anvil and press <kbd>Start enchanting</kbd> again
-    * it will continue from where it left off
+    * It will continue from where it left off
+    * Before each combination, Auto Enchanter will check if you have enough levels, meaning you don't have to have
+      all the levels before enchanting and can gradually receive them in between combinations
+    * Even if you cancelled in middle of the enchanting process,
+      re-selecting all the used and unused books should be able to find a way to obtain the wished result for the same
+      price as before
 
 <table align="left">
     <tr><td><img src="https://github.com/user-attachments/assets/16c659bd-b58c-4668-97d7-75d5060c6043" alt="Selection" height="200" width="368"></td></tr>
