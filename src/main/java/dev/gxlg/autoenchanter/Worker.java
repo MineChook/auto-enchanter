@@ -14,6 +14,7 @@ import net.minecraft.item.Items;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.SlotActionType;
+import net.minecraft.text.Style;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 
@@ -370,8 +371,7 @@ public class Worker {
 
 
     private static void showText(String text, int color) {
-        textDisplay.setMessage(Text.of(text));
-        textDisplay.setTextColor(color);
+        textDisplay.setMessage(Text.literal(text).setStyle(Style.EMPTY.withColor(color)));
         textDisplay.visible = true;
     }
 
