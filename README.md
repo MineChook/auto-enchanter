@@ -1,25 +1,24 @@
 <!--suppress HtmlDeprecatedAttribute, CheckImageSize -->
 
 <img alt="Auto Enchanter Cover" src="https://github.com/user-attachments/assets/2347c1cd-98a1-4a75-bd8e-410b5a37f0a7" />
-
+<h3>Enchant items in the anvil automatically with minimal cost</h3>
 
 > [!WARNING]
-> Experimental mod, use at your own risk
+> The mod is still not fully developed. You may experience instability, crashes or lags.
+> Use at your own risk!
+> Feel free to report any encountered issues or suggest improvements for the algorithm on [<kbd>GitHub</kbd>](https://github.com/gXLg/auto-enchanter)
 
----
-
-<h1 align="center">
-    <img src="https://github.com/user-attachments/assets/d8b694df-ffb2-4ce0-abbe-fcd50a8fcc98" alt="Auto Enchanter Icon" align="center">
-    AutoEnchanter
-    <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
-</h1>
-
-Enchant items in the anvil automatically with minimal cost
-
-* <img src="https://gxlg.github.io/multi-version.svg" height="24" width="24" align="center" alt="MultiVersion"> MultiVersion <kbd>1.20.5</kbd>-<kbd>1.21.10</kbd>: Single JAR for all versions
-* Purely <kbd>client side</kbd>: works in Singleplayer, in Multiplayer and doesn't have to be installed on Servers
-
----
+<!--suppress HtmlDeprecatedAttribute-->
+<div align="center">
+  <hr>
+  <img alt="Client-side badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgxlg.github.io%2Fbadges%2Fclientside.json" align="center">
+  <a href="https://github.com/gXLg/MultiVersion"><img alt="MultiVersion badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgxlg.github.io%2Fbadges%2Fautoenchanter-multi.json" align="center"></a><br>
+  <a href="https://modrinth.com/mod/auto-enchanter"><img alt="Modrinth badge" src="https://img.shields.io/badge/dynamic/json?labelColor=black&color=565&label=Modrinth&suffix=%20downloads&query=downloads&url=https://api.modrinth.com/v2/project/npOjHmZP&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAJPUExURQAAABvZahWnUha1WAYzGQlHIxvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZahvZav///9ScwmYAAADDdFJOUwAAAAAAAA8zW3uOYwIBK3rB6Pn+ml18KiGL5HEDquOIH07R/UzKz2zu+uLHIibtafWkVCMNBRqg7/RQuT8EQbvT+5ETDBSU/NAgCSdZlcQKii7mtxJY5fF/7D1SRkB+EcWh4UilOOtPMdTCR1PqN969vmGDCw7G4DSSsAcGHrSPr3bds5CEwDKoXumcZdwcG4KmjayX32A79pjOqRjIFoXynVYVgPi6qxDnL78p2obVJFquNbGZCPdyvHPZ1yhuh8s+iRzcsrEAAAABYktHRMQUDBvhAAAAB3RJTUUH5wQXDwgZWDUtiQAAAqRJREFUOMttU/k7lFEU/k4L4hsxtNAnhRgiJZOiSfbI2oJpmRFCi2kV0aaNVLTIEpVISmnf97r/WO+534yZnqfzw73vOe+559xz7rmKIoVYvLx95vj6qUSqVBW3sGrwnxsQaAwSwcDz5i9g0wxPfmFIqJCyiEgLE4vDl7iD8PGlETotIqOQahlAdJTLA5sWY5JsbNzysHiihEBWViRqRDOlgyFmJVtMq5JWJ5vhvyZlLevrEmUILKl8PihtvYWcYt6QLmNwFjjEb4SSkZnlZLO5yJzcPBg35bODwZfPZxYwWbC5sKjYzwBUkssxSg1wKNsCtHUb89vTy3GwopBxDmcJ9YdDJYB1B9t2WmUtcbtkqt18Mxsp9irsezS2VEu+uka/mqUWSrFd2VsnhLEetoZ9TFv3HwCexdUdjBWi0aH4YTuEvtoPM3/EO1nnuTpEjD2qHIM54DhR0wmA5hZySzIntyknsbZyi8IB0tp07tRpBDKfgeWsdDjHDlFGRIjnl3O0t573gcMFUBeVS1gvlxB1dOZxv0pIu9IF01UDZRdjr1SuZQhxvbvnRrmsMePmrdsrGPRaKP8OLtmn9KM7A4N3xb8yNExUb5RlZt2btpZbXajzPoYkBaDKrtADp3HkYdloo56ndgx37UcHxSP0tIWBGH9cg1nx6TJFTNhS7eCfcA1PJ+GgDbLDs2GuX3V05Ohj0xYSBGumyq/yfApw4EWTRxPJqxQvIF6+ks9Gr0d4nN+8Nbhoi+NdJEwVSc6hVNvHOUvg+5qeDxoP3GQz6x8/qXLuZ6Op7SPy+gNTnydSELabk1Z8Mbs/hlr4dbobfUgxJMS3UdXza9H33jqnA3/OH41FCZ7/l7HW8vOXiWc9GvPf06D953/T2O/EP8HBNtcH0Zm/lqFNUgTAex4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMDQtMjNUMTU6MDg6MjQrMDA6MDAE5dOaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTA0LTIzVDE1OjA4OjI0KzAwOjAwdbhrJgAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMy0wNC0yM1QxNTowODoyNSswMDowMITaQU0AAAAASUVORK5CYII=&style=flat-square" align="center"></a>
+  <a href="https://github.com/gXLg/auto-enchanter/issues"><img alt="Issues" src="https://img.shields.io/github/issues-search?query=repo%3AgXLg%2Fauto-enchanter%20is%3Aissue%20state%3Aclosed&style=flat-square&logo=github&logoColor=fafbfc&label=Issues%20closed&labelColor=24292d&color=fafbfc" align="center"></a><br>
+  <a href="https://discord.gg/aYBrWe5Jtt"><img alt="Discord" src="https://img.shields.io/discord/1401376830916788306?style=flat-square&logo=discord&logoColor=black&label=gXLg%20Lounge&labelColor=orange&color=black" align="center"></a>
+  <a href="https://www.paypal.com/donate?hosted_button_id=DVC2UQP2AXR68"><img alt="PayPal" src="https://img.shields.io/endpoint?url=https%3A%2F%2FgXLg.github.io%2Fbadges%2Fdonate.json" align="center"></a>
+  <hr>
+</div>
 
 <h1 align="center">
     <img src="https://github.com/user-attachments/assets/ba75f125-a47f-4b4b-a667-77f183285895" alt="Enchanted Book" align="center">
@@ -48,7 +47,7 @@ Enchant items in the anvil automatically with minimal cost
     * It will continue from where it left off
     * Before each combination, Auto Enchanter will check if you have enough levels, meaning you don't have to have
       all the levels before enchanting and can gradually receive them in between combinations
-    * Even if you cancelled in middle of the enchanting process,
+    * Even if you canceled in middle of the enchanting process,
       re-selecting all the used and unused books should be able to find a way to obtain the wished result for the same
       price as before
 
@@ -89,7 +88,7 @@ to ensure that the **highest achievable level** is reached.
 
 Auto Enchanter also supports books and items with **multiple enchantments**, adjusting its calculation algorithm
 to consider only valid combinations. This process is a little fragile and is still being tested. When there are
-wasted or inefficiently used books, Auto Enchanter should throw an error before calculating in most cases, however
+wasted or inefficiently used books, Auto Enchanter should throw an error before calculating in most cases. However,
 sometimes if the combination of the books is more complex, Auto Enchanter will begin calculating and won't find any
 fitting enchantment trees.
 
@@ -122,6 +121,16 @@ some items' every enchantment will be wasted in the enchanting process
 Since not all edge cases can be eliminated before the calculation,
 there are additional checks inside the algorithm to discard invalid enchanting orders;
 if all such orders were invalid, this error message appears
+
+---
+
+TODO:
+
+* check de-sync when "no trees" happens too quickly
+* add config
+* config: disregard wasted books
+* config: >40 xp custom enchantments
+* add progress command and time estimation
 
 ---
 
